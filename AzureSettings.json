@@ -1,0 +1,22 @@
+{
+	"endpoint": "https://msformrecog.cognitiveservices.azure.com/",
+	"apikey":"[ENTER API KEY HERE]",
+	"post_url_suffix":"/formrecognizer/v2.0-preview/custom/models/%s/analyze",
+	"api_attempts":"5",
+	"wait_time":"3",
+	"max_wait_time":"60",
+	"logs_folder":"C:/Users/Administrator/Desktop/DLClassify/Logs",
+	"convert_to_pdf":"Yes",
+	"delete_original_files":"No",
+	"logging_level":"TRACE",
+	"content_type":{
+		"jpeg":"image/jpeg",
+		"tiff":"image/tiff",
+		"png":"image/png",
+		"pdf":"application/pdf"
+		},
+	"model_info": {
+		"model_id":"[ENTER MODEL ID HERE]",
+		"fields_scope": ["DL", "EXP", "LN", "FN", "Address", "RSTR", "CLASS", "LIMITED", "END", "SEX", "DOB", "HAIR", "EYES", "WGT", "DD", "ISS", "HGT"]
+		}
+}
