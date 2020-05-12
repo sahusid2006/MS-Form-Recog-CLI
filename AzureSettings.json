@@ -1,13 +1,14 @@
 {
 	"endpoint": "https://msformrecog.cognitiveservices.azure.com/",
-	"apikey":"[ENTER API KEY HERE]",
+	"apikey":"ENTER API KEY HERE",
 	"post_url_suffix":"/formrecognizer/v2.0-preview/custom/models/%s/analyze",
 	"api_attempts":"5",
 	"wait_time":"3",
 	"max_wait_time":"60",
-	"logs_folder":"C:/Users/Administrator/Desktop/DLClassify/Logs",
-	"convert_to_pdf":"Yes",
+	"logs_folder":".../Enter/Log/Folder/Path/Here",
+	"output_format":"TXT",
 	"delete_original_files":"No",
+	"output_key_prefix":"Value",
 	"logging_level":"TRACE",
 	"content_type":{
 		"jpeg":"image/jpeg",
@@ -16,7 +17,7 @@
 		"pdf":"application/pdf"
 		},
 	"model_info": {
-		"model_id":"[ENTER MODEL ID HERE]",
+		"model_id":"ENTER MODEL ID HERE",
 		"fields_scope": ["DL", "EXP", "LN", "FN", "Address", "RSTR", "CLASS", "LIMITED", "END", "SEX", "DOB", "HAIR", "EYES", "WGT", "DD", "ISS", "HGT"]
 		}
 }
